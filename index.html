@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Checker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>What's Your Weather?</h1>
+    </header>
+    <main>
+        <div class="input-box">
+            <p>Type in a city to get started!</p>
+            <input type="text" name="location" id="location-input" placeholder="San Francisco">
+            <button type="button" onclick=getWeatherData()>Go!</button>
+        </div>
+        <div id="result-box" class="hidden">
+            
+        </div>
+    </main>
+</body>
+</html>
